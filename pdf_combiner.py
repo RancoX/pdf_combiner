@@ -59,6 +59,8 @@ for count, candidate in enumerate(candidates):
         
         # add to pdfWriter
         pdfWriter.add_page(page)
+    
+    logging.info(f"All pages in {candidate} were relocated!")
 
     # check if the last file has been read
     if count == len(candidates)-1:
@@ -70,7 +72,6 @@ for count, candidate in enumerate(candidates):
                 logging.info('combined file is encrypted!')
             pdfWriter.write(wf)
 
-    logging.info(f"All pages in {candidate} were relocated!")
 
 # close all cache binary pdfs
 for binary_pdf in binary_pdf_cache:
