@@ -7,7 +7,7 @@ To install PyPDF2 please execute 'pip install PyPDF2' from your command line
 
 Fore more information on how to install PyPDF2 please refer to https://pypi.org/project/PyPDF2/
 
-This a demo program that combines any number od pdf files nominated by the user
+This a demo program that combines any number of pdf files nominated by the user
 
 It will retain all the pages in each pdf and output to a combined file
 
@@ -15,10 +15,12 @@ To use this program, put all candidate pdfs in the same folder as this python sc
 
 Then add the pdf name to candidate list below
 
-To encrypt output pdf with ppassword, please modify variable 'encryppt_or_not' below
+To encrypt output pdf with password, please modify variable 'encrypt_or_not' below
 
 '''
 ### USER INPUTS ###
+
+# the name of the pdfs to merge
 candidates=['grant_letter.pdf','transcript.pdf']
 
 # change empty string to the password you wanna use otherwise leave as is or change it to None
