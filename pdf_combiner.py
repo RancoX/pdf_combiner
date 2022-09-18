@@ -1,6 +1,11 @@
 import PyPDF2, pathlib, logging
 
 '''
+Please ensure you've installed PyPDF2 before running the code
+
+To install PyPDF2 please execute 'pip install PyPDF2' from your command line
+
+Fore more information on how to install PyPDF2 please refer to https://pypi.org/project/PyPDF2/
 
 This a demo program that combines any number od pdf files nominated by the user
 
